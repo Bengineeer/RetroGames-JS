@@ -230,7 +230,7 @@
     function draw() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         draw_blocks();
-        draw_ball();  // ボールを描画
+        draw_ball();
         update();
 
         if ((is_game_over() == 0) && (is_complete() == 0)) {
